@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+    background-color: #E3F1F6;
+   margin-left: white 50px;
+  }
+
+
+h1 {
+    width: 30vh;
+    text-align: center;
+    background-color: #94a9ff;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    width: 75vh;
+    color: white;
+    
+    background-color: #5778ff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    
+}
+
+.titlebox {
+    border: black 1px solid;
+    width: 75vh;
+    height: 29px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    
+    
+}
+
+.void2 {
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 10px;
+    text-align: center;
+}
+
+.content {
+    font-size: medium ;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+.contentbox {
+    border: black 1px solid;
+    width: 75vh;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.posting {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    width: 75vh;
+    color: white;
+    
+    background-color: #5778ff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+

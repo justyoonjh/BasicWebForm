@@ -1,0 +1,159 @@
+*{padding:0;margin:0}
+        li{list-style:none}
+        a{text-decoration:none; font-size:14px}
+        
+        header{display:flex;}
+        .website-name {
+            color:#5778ff;
+            padding-top: 40px;
+            padding-left:370px;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .login-button {
+        margin-left:auto;
+    	  display:inline-block;
+	      cursor:pointer;
+    	  color:#000000;
+    	  font-size:15px;
+	      padding:8px 15px;
+	      text-decoration:none;
+        }
+        .login-button:hover {
+	      color:#5778ff;
+        }
+        .login-button:active {
+	      position:relative;
+	      top:1px;
+        }
+        .menu_wrap{
+          width:950px;
+          margin:0 auto;
+        }
+        .menu {
+        width: 800px;
+        overflow: hidden;
+        margin-top: 20px;
+        margin-left: 60px;
+        }
+
+        .menu > li {
+        width: 20%;
+        float: left;
+        text-align: center;
+        line-height: 40px;
+        background-color: #5778ff;
+        }
+
+        .menu a {
+        color: #fff;
+        }
+
+        .submenu > li {
+        line-height: 50px;
+        background-color: #94a9ff;
+        }
+
+        .submenu {
+        height: 0;
+        overflow: hidden;
+        }       
+        .menu > li:hover {
+        background-color: #94a9ff;
+        transition-duration: 0.5s;
+        }
+
+        .menu > li:hover .submenu {
+        height: 200px;
+        transition-duration: 0.2s;
+        }
+
+        .login-btn{
+          border-radius:5px;
+          padding-top:5px;
+          text-align:center;
+          font-style:bold;
+          font-size:15px;
+          width:65px;
+          height:26px;
+          position:absolute;
+          top:85px;
+          right:390px;
+        }
+        body{
+          background-color:#D6EAF2;
+        }
+
+
+        .title{
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            border: gray 1px solid;
+            background-color: white;
+            text-align: left;
+        }
+        .container {
+            flex-direction: column;
+        }
+        .MovePost {
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            border: gray 1px solid;
+            background-color: white;
+            text-align: center;
+        }
+
+        .checkbox {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .log_in {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .browser {
+            margin-top: 10px ;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 6px;
+            text-align: left;
+            background-color: #D5D7D8;
+            color: #B9B9B9;
+            width:800px;
+            border-radius: 10px;
+        }
+
+table{ border-collapse : collapse; 
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }   /*이중선 제거*/
+ th,td{
+      width: 400px;
+      height: 50px;
+      text-align: left;
+      border-radius: 20px;
+      background-color: white;
+      vertical-align: top;	/* 위 */
+      vertical-align: bottom;   /* 아래 */
+      vertical-align: middle;   /* 가운데 */
+    }
+
+
+
+.List {
+    margin-left: auto;
+    margin-right: auto;
+}
+ .detail {
+    text-align: center;
+ }
